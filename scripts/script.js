@@ -1,8 +1,6 @@
-<script>
-    let tg = window.Telegram.WebApp;
-    let buy = document.getElementById("buy");
+let tg = window.Telegram.WebApp;
+let buy = document.getElementById("buy");
 
-    buy.addEventListener("click", () => {
-        document.getElementById("main").style.display = "none";
-    });
-</script>
+buy.addEventListener("click", () => {
+    document.getElementById("main").style.display = "none";
+});
