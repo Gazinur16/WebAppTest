@@ -1,0 +1,14 @@
+p {
+  color: green;
+  font-size: 20px;
+}
+
+button {
+    color: var(--tg-theme-button-color);
+    background: var(--tg-theme-button-text-color);
+}
+
+body {
+    color: var(--tg-theme-text-color);
+    background: var(--tg-theme-bg-color);
+}
