@@ -24,7 +24,6 @@ body {
             padding: 10px;
             margin-bottom: 10px;
             border-radius: 8px;
-            border-color: var(--tg-theme-bg-color);
 
         }
         .main button {
@@ -32,5 +31,4 @@ body {
             padding: 10px;
             border-radius: 8px;
             cursor: pointer;
-            border-color: var(--tg-theme-bg-color);
         }
