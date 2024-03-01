@@ -13,14 +13,8 @@ h1 {
 .main {
     width: avto;
     padding: 20px;
-    background-color: #2C2C2E;
-    border-radius: 10px;
-}
-
-/* Добавляем стили для контейнера поля ввода */
-.input-container {
-    position: relative;
-    margin-bottom: 10px;
+    border-radius: 24px;
+    border: 1px solid var(--tg-theme-text-color);
 }
 
 /* Стилизация полей ввода */
@@ -33,25 +27,14 @@ input[type=text], input[type=tel] {
     border: none;
 
     /* Добавление пользовательских стилей */
-    background-color:#3A3A3C;
     color:white;
-    border-radius:5px;
+    border-radius:8px;
+    border: 1px solid var(--tg-theme-text-color);
 }
 
 /* Эффект при наведении для полей ввода */
 input[type=text]:hover, input[type=tel]:hover {
    background-color:#48484A;
-}
-
-/* Обновляем стили для значка "очистить" */
-.clear-field {
-    display: none;
-    position: absolute;
-    right: 10px;
-    top: 35%;
-    transform: translateY(-50%);
-    cursor: pointer;
-    color: black;
 }
 
 /* Стилизация кнопки */
@@ -62,14 +45,14 @@ button {
    border:none;
 
    /* Добавление пользовательских стилей */
-   background-color:#007AFF;
-   color:white;
-   border-radius:5px;
+   background-color: var(--tg-theme-button-color);
+   color: var(--tg-theme-button-text-color);
+   border-radius:8px;
 }
 
 /* Эффект при наведении для кнопки */
 button:hover{
-background-color:#0051FF;
+background-color: var(--tg-theme-secondary-bg-color);
 }
 
 
