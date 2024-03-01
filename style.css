@@ -17,11 +17,8 @@ h1 {
 }
 
 .input-container {
-    margin-block-end: 20px;
-}
-
-label {
     margin-top: 10px;
+    margin-block-end: 10px;
 }
 
 /* Стилизация полей ввода */
