@@ -1,13 +1,11 @@
-font-family: Arial, sans-serif;
-
 body {
       color: var(--tg-theme-text-color);
       background: var(--tg-theme-bg-color);
+      font-family: 'Roboto', serif;
 }
 
 h1 {
   color: var(--tg-theme-text-color);
-  font: Arial, sans-serif;
 }
 
 /* Стилизация основного контейнера */
