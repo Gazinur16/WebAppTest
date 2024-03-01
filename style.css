@@ -2,7 +2,7 @@ font-family: Arial, sans-serif;
 
 body {
       color: var(--tg-theme-text-color);
-      background: var(--tg-theme-bg-color);
+      background: var(--tg-theme-secondary-bg-color);
 }
 
 .header {
@@ -20,6 +20,7 @@ body {
         }
 
         .main input {
+
             width: 95%;
             padding: 10px;
             margin-bottom: 10px;
@@ -27,8 +28,10 @@ body {
 
         }
         .main button {
-            width: 100px;
+            width: 40%;
             padding: 10px;
             border-radius: 8px;
             cursor: pointer;
+            background: var(--tg-theme-button-color);
+            color: var(--tg-theme-button-text-color);
         }
