@@ -43,7 +43,7 @@ input[type=text]:focus, input[type=tel]:focus {
   /* Удаление стандартных стилей */
 
    outline: none;
-   box-shadow: 0 0 3px var(--tg-theme-button-color);
+   box-shadow: 0 0 5px var(--tg-theme-button-color);
 }
 
 /* Стилизация кнопки */
