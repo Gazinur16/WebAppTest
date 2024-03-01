@@ -34,9 +34,9 @@ input[type=text], input[type=tel] {
     background-color: var(--tg-theme-bg-color);
 }
 
-/* Эффект при наведении для полей ввода */
-input[type=text]:hover, input[type=tel]:hover {
-   background-color: var(--tg-theme-secondary-bg-color);
+/* Эффект подсветки границы при фокусе на полях ввода */
+input[type=text]:focus, input[type=tel]:focus {
+   border: 2px solid var(--tg-theme-button-color);
 }
 
 /* Стилизация кнопки */
