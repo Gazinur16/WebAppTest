@@ -21,12 +21,13 @@ h1 {
 }
 
 label {
-    margin-block-end: 8px;
+    margin-top: 10px;
 }
 
 /* Стилизация полей ввода */
 input[type=text], input[type=tel] {
     width: calc(100% - 20px);
+    padding: 10px;
     margin-bottom: 10px; /* Пространство между полями ввода */
 
     /* Удаление стандартных стилей */
