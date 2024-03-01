@@ -1,9 +1,5 @@
 font-family: Arial, sans-serif;
 
-if --tg-theme-text-color == None {
-    --tg-theme-text-color = blue;
-}
-
 body {
       color: var(--tg-theme-text-color);
       background: var(--tg-theme-bg-color);
@@ -11,6 +7,7 @@ body {
 
 h1 {
   color: var(--tg-theme-text-color);
+  font: Arial, sans-serif;
 }
 
 /* Стилизация основного контейнера */
@@ -48,6 +45,7 @@ input[type=text]:focus, input[type=tel]:focus {
 
 /* Стилизация кнопки */
 button {
+   margin-top: 20px; /* Пространство между полями ввода */
    padding:10px;
 
    /* Удаление стандартных стилей */
@@ -63,5 +61,3 @@ button {
 button:hover{
 background-color: var(--tg-theme-secondary-bg-color);
 }
-
-
