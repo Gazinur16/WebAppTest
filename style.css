@@ -24,14 +24,14 @@ body {
             padding: 10px;
             margin-bottom: 10px;
             border: none;
-            border-radius: 5px;
-            border-color: var(--tg-theme-text-color);
+            border-radius: 8px;
+            border-color: white;
         }
         .main button {
             width: 100%;
             padding: 10px;
             border: none;
-            border-radius: 5px;
+            border-radius: 8px;
             cursor: pointer;
-            border-color: var(--tg-theme-text-color)
+            border-color: white;
         }
