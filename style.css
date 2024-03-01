@@ -1,17 +1,17 @@
 font-family: Arial, sans-serif;
 
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  color: var(--tg-theme-text-color);
-  background: var(--tg-theme-bg-color);
-}
-    .header h1 {
-      color: var(--tg-theme-text-color);
-      background: var(--tg-theme-bg-color);
-    }
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 10px;
+          color: var(--tg-theme-text-color);
+          background: var(--tg-theme-bg-color);
+        }
+
+        .header h1 {
+          color: var(--tg-theme-text-color);
+        }
 
 
 .main {
