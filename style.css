@@ -5,9 +5,13 @@ body {
       background: var(--tg-theme-bg-color);
 }
 
+h1 {
+  color: var(--tg-theme-text-color);
+}
+
 /* Стилизация основного контейнера */
 .main {
-    width: 400px;
+    width: avto;
     padding: 20px;
     background-color: #2C2C2E;
     border-radius: 10px;
@@ -35,7 +39,7 @@ input[type=text]:hover, input[type=tel]:hover {
 
 /* Стилизация кнопки */
 button {
-   width: calc(100% - 20px);
+   width: 20%;
    padding:10px;
 
    /* Удаление стандартных стилей */
