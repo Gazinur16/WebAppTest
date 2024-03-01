@@ -25,6 +25,7 @@ body {
             margin-bottom: 10px;
             border: none;
             border-radius: 5px;
+            border-color: var(--tg-theme-text-color);
         }
         .main button {
             width: 100%;
@@ -32,4 +33,5 @@ body {
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            border-color: var(--tg-theme-text-color)
         }
