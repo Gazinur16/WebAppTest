@@ -41,10 +41,9 @@ input[type=text], input[type=tel] {
 /* Эффект подсветки границы при фокусе на полях ввода */
 input[type=text]:focus, input[type=tel]:focus {
   /* Удаление стандартных стилей */
-   border:none;
 
-   border: 2px solid var(--tg-theme-button-color);
-   background-color: var(--tg-theme-bg-color);
+   outline: none;
+   box-shadow: 0 0 3px var(--tg-theme-button-color);
 }
 
 /* Стилизация кнопки */
