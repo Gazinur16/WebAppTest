@@ -1,18 +1,17 @@
-p {
-  color: green;
-  font-size: 20px;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px;
 }
 
-button {
-    color: var(--tg-theme-button-color);
-    background: var(--tg-theme-button-text-color);
+.header h1 {
+  color: white;
 }
 
-body {
-    color: var(--tg-theme-text-color);
-    background: var(--tg-theme-bg-color);
-}
-
-form {
-    display: none;
+.header img {
+    border-radius: 50%;
+    width: 40px; /* Подстройте размер по необходимости */
+    height: auto;
 }
