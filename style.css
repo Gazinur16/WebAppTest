@@ -30,11 +30,12 @@ input[type=text], input[type=tel] {
     color:white;
     border-radius:8px;
     border: 1px solid var(--tg-theme-text-color);
+    background-color: var(--tg-theme-bg-color);
 }
 
 /* Эффект при наведении для полей ввода */
 input[type=text]:hover, input[type=tel]:hover {
-   background-color:#48484A;
+   background-color: var(--tg-theme-secondary-bg-color);
 }
 
 /* Стилизация кнопки */
