@@ -16,10 +16,17 @@ h1 {
     border: 1px solid var(--tg-theme-text-color);
 }
 
+.input-container {
+    margin-block-end: 20px;
+}
+
+label {
+    margin-block-end: 8px;
+}
+
 /* Стилизация полей ввода */
 input[type=text], input[type=tel] {
     width: calc(100% - 20px);
-    padding: 10px;
     margin-bottom: 10px; /* Пространство между полями ввода */
 
     /* Удаление стандартных стилей */
