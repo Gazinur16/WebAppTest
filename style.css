@@ -4,3 +4,50 @@ body {
       color: var(--tg-theme-text-color);
       background: var(--tg-theme-bg-color);
 }
+
+/* Стилизация основного контейнера */
+.main {
+    width: 400px;
+    padding: 20px;
+    background-color: #2C2C2E;
+    border-radius: 10px;
+}
+
+/* Стилизация полей ввода */
+input[type=text], input[type=tel] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px; /* Пространство между полями ввода */
+
+    /* Удаление стандартных стилей */
+    border: none;
+
+    /* Добавление пользовательских стилей */
+    background-color:#3A3A3C;
+    color:white;
+    border-radius:5px;
+}
+
+/* Эффект при наведении для полей ввода */
+input[type=text]:hover, input[type=tel]:hover {
+   background-color:#48484A;
+}
+
+/* Стилизация кнопки */
+button {
+   width: calc(100% - 20px);
+   padding:10px;
+
+   /* Удаление стандартных стилей */
+   border:none;
+
+   /* Добавление пользовательских стилей */
+   background-color:#007AFF;
+   color:white;
+   border-radius:5px;
+}
+
+/* Эффект при наведении для кнопки */
+button:hover{
+background-color:#0051FF;
+}
