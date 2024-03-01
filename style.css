@@ -9,9 +9,9 @@ font-family: Arial, sans-serif;
           background: var(--tg-theme-bg-color);
         }
 
-        .header h1 {
-          color: var(--tg-theme-text-color);
-        }
+.header h1 {
+  color: var(--tg-theme-text-color);
+}
 
 
 .main {
