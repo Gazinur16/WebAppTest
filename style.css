@@ -1,3 +1,5 @@
+font-family: Arial, sans-serif;
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -17,3 +19,36 @@
     width: 40px; /* Подстройте размер по необходимости */
     height: auto;
 }
+
+
+.form-main {
+            width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            color: var(--tg-theme-text-color);
+            background: var(--tg-theme-bg-color);
+            border-radius: 20px;
+        }
+        .form-main h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .form-main input {
+            width: 95%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 5px;
+            color: var(--tg-theme-text-color);
+            background: var(--tg-theme-bg-color);
+        }
+        .form-main button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #008CBA;
+            color: var(--tg-theme-text-color);
+            background: var(--tg-theme-bg-color);
+            cursor: pointer;
+        }
