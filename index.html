@@ -15,11 +15,18 @@
     </div>
 
     <div class="main">
-        <input type="text" id="name" name="name" placeholder="Имя">
-        <input type="tel" id="phone" name="phone" placeholder="Телефон">
-
+        <div class="input-container">
+            <input type="text" id="name" name="name" placeholder="Имя">
+            <span id="clear-name" class="clear-field">очистить</span>
+        </div>
+        <div class="input-container">
+            <input type="tel" id="phone" name="phone" placeholder="Телефон">
+            <span id="clear-phone" class="clear-field">очистить</span>
+        </div>
         <button type="submit">Отправить</button>
     </div>
+
+
 
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script 

@@ -17,6 +17,12 @@ h1 {
     border-radius: 10px;
 }
 
+/* Добавляем стили для контейнера поля ввода */
+.input-container {
+    position: relative;
+    margin-bottom: 10px;
+}
+
 /* Стилизация полей ввода */
 input[type=text], input[type=tel] {
     width: calc(100% - 20px);
@@ -37,9 +43,19 @@ input[type=text]:hover, input[type=tel]:hover {
    background-color:#48484A;
 }
 
+/* Обновляем стили для значка "очистить" */
+.clear-field {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 35%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: black;
+}
+
 /* Стилизация кнопки */
 button {
-   width: 20%;
    padding:10px;
 
    /* Удаление стандартных стилей */
@@ -55,3 +71,5 @@ button {
 button:hover{
 background-color:#0051FF;
 }
+
+
