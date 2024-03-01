@@ -23,7 +23,7 @@ h1 {
 }
 
 /* Стилизация полей ввода */
-input[type=text], input[type=tel] {
+input {
     margin-top: 8px;
     width: calc(100% - 20px);
     padding: 10px;
@@ -40,7 +40,7 @@ input[type=text], input[type=tel] {
 }
 
 /* Эффект подсветки границы при фокусе на полях ввода */
-input[type=text]:focus, input[type=tel]:focus {
+input:focus {
   /* Удаление стандартных стилей */
 
    outline: none;
