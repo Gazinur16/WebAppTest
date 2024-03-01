@@ -41,9 +41,15 @@ input[type=text]:focus, input[type=tel]:focus {
    box-shadow: 0 0 5px var(--tg-theme-button-color);
 }
 
-/* Стилизация кнопки */
-button {
-   margin-top: 20px; /* Пространство между полями ввода */
+/* Добавляем стили для контейнера кнопок */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Стилизация кнопки Отправить*/
+button[type="submit"] {
    padding:10px;
 
    /* Удаление стандартных стилей */
@@ -55,7 +61,22 @@ button {
    border-radius:8px;
 }
 
-/* Эффект при наведении для кнопки */
-button:hover{
+/* Эффект при наведении для кнопки Отправить*/
+button[type="submit"]:hover{
 background-color: var(--tg-theme-secondary-bg-color);
+}
+
+/* Стили для кнопки сброса */
+button[type="reset"] {
+    background-color: var(--tg-theme-bg-color);
+    color: var(--tg-theme-button-color);
+
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Эффект при наведении для кнопки сброса */
+button[type="reset"]:hover {
+    background-color: var(--tg-theme-secondary-bg-color);
 }
