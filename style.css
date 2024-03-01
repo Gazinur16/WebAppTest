@@ -25,6 +25,7 @@ input[type=text], input[type=tel] {
 
     /* Удаление стандартных стилей */
     border: none;
+    background-color: none;
 
     /* Добавление пользовательских стилей */
     color:white;
