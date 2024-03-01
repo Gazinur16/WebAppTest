@@ -13,7 +13,7 @@ body {
         }
 
 .main {
-        width: 400px;
+        width: 0 auto;
         margin: 0 auto;
         padding: 20px;
         border-radius: 20px;
@@ -24,12 +24,13 @@ body {
             padding: 10px;
             margin-bottom: 10px;
             border-radius: 8px;
-            border-color: var(--tg-theme-text-color);
+            border-color: var(--tg-theme-bg-color);
+
         }
         .main button {
             width: 100%;
             padding: 10px;
             border-radius: 8px;
             cursor: pointer;
-            border-color: var(--tg-theme-text-color);
+            border-color: var(--tg-theme-bg-color);
         }
