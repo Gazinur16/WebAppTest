@@ -17,15 +17,14 @@ h1 {
 }
 
 .input-container {
-    margin-top: 10px;
-    margin-block-end: 10px;
+    margin-block-end: 20px;
 }
 
 /* Стилизация полей ввода */
 input[type=text], input[type=tel] {
+    margin-top: 8px;
     width: calc(100% - 20px);
     padding: 10px;
-    margin-bottom: 10px; /* Пространство между полями ввода */
 
     /* Удаление стандартных стилей */
     border: none;
