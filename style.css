@@ -1,12 +1,13 @@
 body {
       color: var(--tg-theme-text-color);
       background: var(--tg-theme-bg-color);
-      font-family: 'Roboto', serif;
+      font-family: 'Roboto', regular;
 }
 
 h1 {
-  color: var(--tg-theme-text-color);
-  text-align: center;
+    padding:10px;
+    color: var(--tg-theme-text-color);
+    text-align: center;
 }
 
 /* Стилизация основного контейнера */
@@ -18,6 +19,8 @@ h1 {
 }
 
 .input-container {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
     margin-block-end: 20px;
 }
 
@@ -55,6 +58,9 @@ input:focus {
 
 /* Стилизация кнопки Отправить*/
 button[type="submit"] {
+   font-family: "Roboto", sans-serif;
+   font-weight: 700;
+
    padding:10px;
 
    /* Удаление стандартных стилей */
